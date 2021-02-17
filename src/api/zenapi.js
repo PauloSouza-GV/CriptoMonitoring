@@ -2,9 +2,7 @@ const request = require('request-promise');
 require("dotenv/config");
 
 module.exports = {
-    async send( req ) {
-
-        const { message } = req.body;
+    async send( from, message, name ) {
 
         request.post({
             uri: process.env.APIZENAPI,
@@ -13,10 +11,10 @@ module.exports = {
             },
             body: {
                 from: process.env.ACCOUNTZENAPI,
-                to: '5584981562093',
+                to: from,
                 contents: [{
                     type: 'text',
-                    text: message
+                    text: `Olá ${name} message`
                 }]
             },
             json: true
