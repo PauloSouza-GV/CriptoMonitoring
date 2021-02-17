@@ -1,6 +1,6 @@
 {
   "name": "CriptoMonitoring",
-  "version": "1",
+  "version": "1.0.0",
   "description": "Monitorando de criptomoedas via whatsapp",
   "main": "src/index.js",
   "author": "PauloSouza-PH",
