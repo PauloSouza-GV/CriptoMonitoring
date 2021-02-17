@@ -1,10 +1,23 @@
 {
-  "name": "CriptoMonitoring",
+  "name": "criptomonitoring",
   "version": "1.0.0",
   "description": "Monitorando de criptomoedas via whatsapp",
   "main": "src/index.js",
   "author": "PauloSouza-PH",
-  "license": "MIT",
+  "license": "ISC",
+ 
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloSouza-PH/CriptoMonitoring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PauloSouza-PH/CriptoMonitoring/issues"
+  },
+  "homepage": "https://github.com/PauloSouza-PH/CriptoMonitoring#readme",
+
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5",
